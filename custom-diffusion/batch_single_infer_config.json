@@ -1,0 +1,12 @@
+{
+    "pretrained_model_name_or_path": "/workspace/models/stable-diffusion-v1-4",
+    "concept_path": "/workspace/output/",
+    "output_folder": "/workspace/output/gen_eval",
+    "prompt_dir": "/workspace/custom_diffusion/customconcept101/prompts",
+    "custom_token": "<new1>",
+    "prompt_config": {
+        "num_inference_steps": 100,
+        "guidance_scale": 6.0,
+        "eta": 1.0
+    }
+}

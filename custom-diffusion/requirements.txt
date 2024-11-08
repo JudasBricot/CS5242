@@ -1,0 +1,23 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch 
+torchvision 
+torchaudio 
+transformers 
+sentencepiece 
+safetensors 
+aiohttp 
+pyyaml 
+Pillow 
+scipy
+psutil 
+accelerate 
+clip-retrieval 
+albumentations 
+matplotlib 
+jupyterlab
+tensorboard 
+gdown 
+lightning 
+omegaconf 
+huggingface_hub==0.24.7 
+diffusers==0.21.4 

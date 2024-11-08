@@ -1,0 +1,26 @@
+[
+    {
+        "instance": "person_1",
+        "token": "<new1>",
+        "class-instance": "person",
+        "base-model": "/workspace/models/stable-diffusion-v1-5",
+        "delta-checkpoint": "/workspace/output/person_1_reg_2_gpu_longer_cr/delta.bin",
+        "prompt-file": "/workspace/custom_diffusion/custom-diffusion/customconcept101/prompts/person.txt"
+    },
+    {
+        "instance": "person_2",
+        "token": "<new1>",
+        "class-instance": "person",
+        "base-model": "/workspace/models/stable-diffusion-v1-5",
+        "delta-checkpoint": "/workspace/output/person_2_reg_2_gpu_longer_cr/delta.bin",
+        "prompt-file": "/workspace/custom_diffusion/custom-diffusion/customconcept101/prompts/person.txt"
+    },
+    {
+        "instance": "person_3",
+        "token": "<new1>",
+        "class-instance": "person",
+        "base-model": "/workspace/models/stable-diffusion-v1-5",
+        "delta-checkpoint": "/workspace/output/person_3_reg_2_gpu_longer_cr/delta.bin",
+        "prompt-file": "/workspace/custom_diffusion/custom-diffusion/customconcept101/prompts/person.txt"
+    }
+]

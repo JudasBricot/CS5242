@@ -1,0 +1,23 @@
+[
+    {
+        "instance_prompt": "photo of a <new1> person",
+        "class_prompt": "person",
+        "instance_data_dir": "./workspace/data/benchmark_dataset/person_1",
+        "class_data_dir": "/workspace/data/real_reg/person",
+        "prompt_filename": "/workspace/custom_diffusion/custom-diffusion/customconcept101/prompts/person.txt"
+    },
+    {
+        "instance_prompt": "photo of a <new1> person",
+        "class_prompt": "person",
+        "instance_data_dir": "/workspace/data/benchmark_dataset/person_2",
+        "class_data_dir": "/workspace/data/real_reg/person",
+        "prompt_filename": "/workspace/custom_diffusion/custom-diffusion/customconcept101/prompts/person.txt"
+    },
+    {
+        "instance_prompt": "photo of a <new1> person",
+        "class_prompt": "person",
+        "instance_data_dir": "/workspace/data/benchmark_dataset/person_3",
+        "class_data_dir": "/workspace/data/real_reg/person",
+        "prompt_filename": "/workspace/custom_diffusion/custom-diffusion/customconcept101/prompts/person.txt"
+    }
+]

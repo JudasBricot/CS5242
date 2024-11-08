@@ -1,0 +1,30 @@
+[
+    {
+        "instance": "pet_cat1",
+        "token": "<new1>",
+        "class-instance": "cat",
+        "base-model": "/workspace/models/stable-diffusion-v1-5",
+        "delta-checkpoint": "/workspace/output/pet_cat1/delta.bin"
+    },
+    {
+        "instance": "pet_cat2",
+        "token": "<new1>",
+        "class-instance": "cat",
+        "base-model": "/workspace/models/stable-diffusion-v1-5",
+        "delta-checkpoint": "/workspace/output/pet_cat2/delta.bin"
+    },
+    {
+        "instance": "pet_cat4",
+        "token": "<new1>",
+        "class-instance": "cat",
+        "base-model": "/workspace/models/stable-diffusion-v1-5",
+        "delta-checkpoint": "/workspace/output/pet_cat4/delta.bin"
+    },
+    {
+        "instance": "pet_cat5",
+        "token": "<new1>",
+        "class-instance": "cat",
+        "base-model": "/workspace/models/stable-diffusion-v1-5",
+        "delta-checkpoint": "/workspace/output/pet_cat5/delta.bin"
+    }
+]

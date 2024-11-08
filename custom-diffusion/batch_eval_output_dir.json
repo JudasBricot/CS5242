@@ -1,0 +1,24 @@
+[
+    {
+        "instance": "person_1",
+        "token": "<new1>",
+        "class-instance": "person",
+        "base-model": "/workspace/models/stable-diffusion-v1-5",
+        "delta-checkpoint": "/workspace/output/person_1/delta.bin",
+        "prompt-file": "prompts/person.txt"
+    },
+    {
+        "instance": "person_2",
+        "token": "<new1>",
+        "class-instance": "person",
+        "base-model": "/workspace/models/stable-diffusion-v1-5",
+        "delta-checkpoint": "/workspace/output/person_2/delta.bin"
+    },
+    {
+        "instance": "person_3",
+        "token": "<new1>",
+        "class-instance": "person",
+        "base-model": "/workspace/models/stable-diffusion-v1-5",
+        "delta-checkpoint": "/workspace/output/person_3/delta.bin"
+    }
+]

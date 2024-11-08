@@ -1,0 +1,37 @@
+[
+    {
+        "instance_prompt": "photo of a <new1> cat",
+        "class_prompt": "cat",
+        "instance_data_dir": "/workspace/data/benchmark_dataset/pet_cat1",
+        "class_data_dir": "/workspace/data/real_reg/cat",
+        "prompt_filename": "/workspace/custom_diffusion/customconcept101/prompts/cat.txt"
+    },
+    {
+        "instance_prompt": "photo of a <new1> cat",
+        "class_prompt": "cat",
+        "instance_data_dir": "/workspace/data/benchmark_dataset/pet_cat2",
+        "class_data_dir": "/workspace/data/real_reg/cat",
+        "prompt_filename": "/workspace/custom_diffusion/customconcept101/prompts/cat.txt"
+    },
+    {
+        "instance_prompt": "photo of a <new1> cat",
+        "class_prompt": "cat",
+        "instance_data_dir": "/workspace/data/benchmark_dataset/pet_cat3",
+        "class_data_dir": "/workspace/data/real_reg/cat",
+        "prompt_filename": "/workspace/custom_diffusion/customconcept101/prompts/cat.txt"
+    },
+    {
+        "instance_prompt": "photo of a <new1> cat",
+        "class_prompt": "cat",
+        "instance_data_dir": "/workspace/data/benchmark_dataset/pet_cat4",
+        "class_data_dir": "/workspace/data/real_reg/cat",
+        "prompt_filename": "/workspace/custom_diffusion/customconcept101/prompts/cat.txt"
+    },
+    {
+        "instance_prompt": "photo of a <new1> cat",
+        "class_prompt": "cat",
+        "instance_data_dir": "/workspace/data/benchmark_dataset/pet_cat5",
+        "class_data_dir": "/workspace/data/real_reg/cat",
+        "prompt_filename": "/workspace/custom_diffusion/customconcept101/prompts/cat.txt"
+    }
+]

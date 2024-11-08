@@ -1,0 +1,13 @@
+,CLIP Text alignment,CLIP Image alignment,DINO Image alignment,data name,setup
+/workspace/output/person_1_alt_reg_2_gpu_longer,0.763017578125,0.6284,0.3436889,person_1,alt_reg_2_gpu_longer
+/workspace/output/person_1_reg_2_gpu_longer,0.75373046875,0.648,0.3734313,person_1,reg_2_gpu_longer
+/workspace/output/person_1_no_reg,0.781982421875,0.527,0.26632056,person_1,no_reg
+/workspace/output/person_1_reg_2_gpu_longer_cr,0.7473095703125,0.6406,0.34217104,person_1,reg_2_gpu_longer_cr
+/workspace/output/person_2_alt_reg_2_gpu_longer,0.7560400390625,0.5967,0.31478524,person_2,alt_reg_2_gpu_longer
+/workspace/output/person_2_reg_2_gpu_longer,0.7521484375,0.609,0.33324823,person_2,reg_2_gpu_longer
+/workspace/output/person_2_no_reg,0.77048828125,0.5205,0.24921256,person_2,no_reg
+/workspace/output/person_2_reg_2_gpu_longer_cr,0.726787109375,0.6006,0.31490907,person_2,reg_2_gpu_longer_cr
+/workspace/output/person_3_alt_reg_2_gpu_longer,0.7312548828125,0.613,0.32212615,person_3,alt_reg_2_gpu_longer
+/workspace/output/person_3_reg_2_gpu_longer,0.722197265625,0.616,0.33217797,person_3,reg_2_gpu_longer
+/workspace/output/person_3_no_reg,0.75765625,0.517,0.24399593,person_3,no_reg
+/workspace/output/person_3_reg_2_gpu_longer_cr,0.7029345703125,0.5884,0.31124356,person_3,reg_2_gpu_longer_cr
