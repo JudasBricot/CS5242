@@ -62,14 +62,6 @@ def load_ground_truth_embeddings(gt_root, generated_ids):
     return gt_embeddings
 
 def process_instance(instance_folder, gt_embeddings, gpu_count):
-    """
-    处理每个生成图片的实例文件夹：
-    - 提取instance_id。
-    - 检查生成图片中是否有100张图片。
-    - 对每个prompt（5张图片），提取检测到的人脸嵌入并计算平均嵌入向量。
-    - 计算与Ground Truth的余弦相似度。
-    - 仅当至少一个prompt有有效相似度时，返回结果。
-    """
     folder_name = os.path.basename(instance_folder)
     if '_reg' in folder_name:
         instance_id = folder_name.split('_reg')[0]
