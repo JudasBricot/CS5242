@@ -1,8 +1,6 @@
-# Subject Centric Image Generation
+# Custom Diffusion and Cross Initialization Merge Project
 
-Project goal: to generate subject in images based on a few photos of them. Subjects in this case refer to people.
-
-The codebase is a merge of [Multi-Concept Customization of Text-to-Image Diffusion (Custom Diffusion)](https://github.com/adobe-research/custom-diffusion) and [Cross Initialisation for Face Personalisation of Text-to-Image Models (Cross initialisation)](https://github.com/lyuPang/CrossInitialization). Their original READMEs are shown below.
+The code in this folder is a merge of [Multi-Concept Customization of Text-to-Image Diffusion (Custom Diffusion)](https://github.com/adobe-research/custom-diffusion) and [Cross Initialisation for Face Personalisation of Text-to-Image Models (Cross initialisation)](https://github.com/lyuPang/CrossInitialization).
 
 ## Experiment
 
@@ -29,9 +27,3 @@ Common parameters:
 ## Installation
 
 The experiment runs on Python 3.10. Packages are stated in `requirements.txt`. diffusers requirement are quite fixed, upgrading it will be a problem. Note, while deepspeed is installed, it does not work on this. Accelerate config is run using bf16, no deepspeed.
-
-# Original repositories
-
-[Custom Diffusion](https://github.com/adobe-research/custom-diffusion)
-
-[Cross Initialization](https://github.com/lyuPang/CrossInitialization)
