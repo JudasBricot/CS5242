@@ -64,7 +64,7 @@ def parse_arg():
   args = parser.parse_args()
   env_local_rank = int(os.environ.get("LOCAL_RANK", -1))
   if env_local_rank != -1 and env_local_rank != args.local_rank:
-      args.local_rank = env_local_rank
+    args.local_rank = env_local_rank
 
   return args
 
