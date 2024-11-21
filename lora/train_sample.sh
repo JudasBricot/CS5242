@@ -1,31 +1,29 @@
 #!/bin/bash
 
-conda activate ldm
-
 # change the data path to actual training data
 datasets=(
-  "C:\Users\arthu\Documents\Cours\NUS\CS5242\CS5242 - perso\benchmark_dataset\person_1",
-  "C:\Users\arthu\Documents\Cours\NUS\CS5242\CS5242 - perso\benchmark_dataset\person_2",
-  "C:\Users\arthu\Documents\Cours\NUS\CS5242\CS5242 - perso\benchmark_dataset\person_3"
+  "benchmark_dataset/person_1"
+  "benchmark_dataset/person_2"
+  "benchmark_dataset/person_3"
 )
 
 datasets_formated_structure=(
-  "temp/dataset/person_1",
-  "temp/dataset/person_2",
+  "temp/dataset/person_1"
+  "temp/dataset/person_2"
   "temp/dataset/person_3"
 )
 
 output_dirs=(
-  "output/person_1",
-  "output/person_2",
-  "output/person_3"
+  "output/models/person_1"
+  "output/models/person_2"
+  "output/models/person_3"
 )
 
 for i in ${!datasets[@]}; do
   placeholder_token=$(basename "${datasets[i]}")
   
   python create_formated_dataset.py \
-    --image_folder="${datasets[i]}" \
+    --image_dir="${datasets[i]}" \
     --prompt="A photo of a <new1> person" \
     --output_dir="${datasets_formated_structure[i]}" &
 
